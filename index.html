@@ -8,11 +8,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+
+
+    <style>
+        div#resume img {
+            float: right;
+            padding: 10px;
+            background: #fff;
+            margin: 0 30px;
+            transform: rotate(-4deg);
+            box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+            width: 30%;
+            max-width: 220px;
+        }
+
+        div#resume h1 {
+            margin: 0 0 16px 0;
+            padding: 0 0 16px 0;
+            font-size: 46px;
+            font-weight: bold;
+            letter-spacing: -2px;
+            border-bottom: 1px solid #999;
+            line-height: 50px;
+
+        }
+
+        div#resume p {
+            margin: 0 0 16px 0;
+        }
+
+        div#resume a {
+            color: #999;
+            text-decoration: none;
+            border-bottom: 1px dotted #999;
+        }
+
+        div#resume dl dt,
+        div#resume dl dd {
+            display: table-cell;
+            padding-bottom: 20px;
+        }
+
+        div#resume dl {
+            display: table-row;
+        }
+
+        div#resume h2 {
+            font-size: 20px;
+            margin: 0 0 6px 0;
+            position: relative;
+        }
+
+        div#resume dl dd {
+            width: 500px;
+            padding-left: 26px;
+        }
+
+        div#resume dt {
+            font-style: italic;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: right;
+            padding: 0 26px 0 0;
+            width: 150px;
+            border-right: 1px solid #999;
+        }
+
+        @media screen and (max-width: 1100px) {
+            div#resume h2 span {
+                position: static;
+                display: block;
+                margin-top: 2px;
+            }
+        }
+
+
+        div#resume h2 span {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-style: italic;
+            font-family: Georgia, serif;
+            font-size: 16px;
+            color: #999;
+            font-weight: normal;
+        }
+    </style>
 </head>
 
 <body>
     <div id="resume">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/james-moriarty.jpg" alt="James Moriarty">
+        <img src="./james-moriarty.jpg" alt="James Moriarty">
         <h1>James Moriarty</h1>
         <p>Cell:
             <a href="#">555-666-7777</a>
